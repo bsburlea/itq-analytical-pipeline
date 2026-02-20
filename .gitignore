@@ -11,3 +11,11 @@ __pycache__/
 # Environments
 .env
 .venv
+
+# --- ITQ data protection ---
+data/raw/
+data/processed/
+
+!data/
+!data/schemas/
+!data/schemas/**

@@ -1,0 +1,38 @@
+psychosocial-intention-to-quit/
+│
+├── data/
+│   ├── raw/                    # original survey files (not shown to author)
+│   ├── processed/
+│   │   ├── data.csv
+│   │   ├── X.csv
+│   │   ├── y.csv
+│   │   └── feature_names.json
+│   ├── results/
+│   │   ├── regression_results.json
+│   │   ├── classification_results.json
+│   │   └── structured_results.json
+│   └── diagrams/
+│       ├── model_stage_A_M1.pdf
+│       ├── model_stage_B_M2.pdf
+│       ├── model_stage_C_M3_full.pdf
+│       └── model_stage_D_publication.pdf
+│
+├── notebooks/                  # author-facing analytical flow
+│   ├── 03_eda.ipynb
+│   ├── 05_models.ipynb         # NEW structured modelling stages
+│   ├── 06_results_interpretation.ipynb
+│   └── 07_diagram_export.ipynb
+│
+├── src/
+│   ├── 04_prepare_itq_features.py
+│   ├── 05_itq_prediction_experiments.py
+│   ├── 08_generate_diagrams.py
+│   └── data_utils.py
+│
+├── docs/
+│   ├── notes_to_author.md
+│   ├── architecture.md
+│   └── figures/
+│
+├── README.md
+└── requirements.txt

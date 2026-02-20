@@ -1,0 +1,15 @@
+digraph Diagram_B_M2 {
+	rankdir=LR
+	node [fillcolor=white shape=box style="rounded,filled"]
+	personality [label="Personality Layer"]
+	context [label="Context & Support"]
+	task_effectiveness [label="Task Effectiveness"]
+	team_effectiveness [label="Team Effectiveness"]
+	job_stress [label="Job Stress"]
+	ITQ [label="Intention to Quit" fillcolor=lightgray]
+	task_effectiveness -> ITQ [label=0.01 color=black penwidth=1 style=solid]
+	team_effectiveness -> ITQ [label=-0.12 color=gray40 penwidth=1 style=dashed]
+	job_stress -> ITQ [label=0.48 color=black penwidth=3 style=solid]
+	context -> ITQ [label=-0.18 color=gray40 penwidth=2 style=dashed]
+	context -> ITQ [label=-0.12 color=gray40 penwidth=1 style=dashed]
+}

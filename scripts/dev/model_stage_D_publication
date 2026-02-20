@@ -1,0 +1,13 @@
+digraph Diagram_D_Publication {
+	rankdir=LR
+	node [fillcolor=white shape=box style="rounded,filled"]
+	personality [label="Personality Layer"]
+	context [label="Context & Support"]
+	task_effectiveness [label="Task Effectiveness"]
+	team_effectiveness [label="Team Effectiveness"]
+	job_stress [label="Job Stress"]
+	ITQ [label="Intention to Quit" fillcolor=lightgray]
+	job_stress -> ITQ [label=0.40 color=black penwidth=3 style=solid]
+	context -> ITQ [label=-0.20 color=gray40 penwidth=2 style=dashed]
+	context -> ITQ [label=-0.20 color=gray40 penwidth=2 style=dashed]
+}

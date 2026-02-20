@@ -1,0 +1,26 @@
+    "A": {
+        "title": "Stage A — Direct Prediction of Intention to Quit",
+        "caption": (
+            "Baseline model where ITQ is predicted from task effectiveness, "
+            "team effectiveness, and job stress."
+        ),
+    },
+    "B": {
+        "title": "Stage B — Context and Support Effects via Psychosocial Mechanisms",
+        "caption": (
+            "Contextual and support variables added to examine mechanisms "
+            "influencing ITQ through intermediate outcomes."
+        ),
+    },
+    "C": {
+        "title": "Stage C — Integrated Personality, Context, and Mechanism Model",
+        "caption": (
+            "Full psychosocial model integrating personality, environment, "
+            "and mechanisms influencing ITQ."
+        ),
+    },
+    "D": {
+        "title": "Stage D — Conceptual Summary of Psychosocial Drivers of ITQ",
+        "caption": (
+            "Condensed publication model illustrating distal and proximal "
+            "drivers of Intention to Quit."

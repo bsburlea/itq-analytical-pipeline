@@ -1,0 +1,87 @@
+## Notes — Conceptual Framing, Model Interpretation, and Reporting Decisions
+
+### 1. Scope and Interpretation of the Model Stages
+
+The modelling pipeline is intentionally structured as a layered progression rather than a single unified model:
+
+* **Stage A — Proximal Prediction:**
+  Focuses on direct associations between task effectiveness, team effectiveness, job stress, and Intention to Quit (ITQ). Results from this stage should be interpreted as baseline predictive relationships, not as causal claims.
+
+* **Stage B — Contextual Mechanisms:**
+  Context and support variables are introduced to examine how environmental conditions influence ITQ through psychosocial mechanisms. The emphasis is on mediation-like structure rather than direct contextual effects.
+
+* **Stage C — Integrated Psychosocial Model:**
+  Combines distal personality factors with contextual variables and mechanisms. Personality traits should be framed as structural or distal modifiers rather than primary predictors.
+
+* **Stage D — Conceptual Summary:**
+  This stage is a theoretical condensation of the empirical findings. It represents an interpretative framework derived from earlier stages rather than an independent statistical model.
+
+---
+
+### 2. Interpretation of Model Performance (R² and Predictive Strength)
+
+R² values should be discussed comparatively rather than absolutely:
+
+* Lower R² in earlier stages (especially Stage A) reflects intentional model simplicity and should not be framed as weakness.
+* Incremental changes in R² across stages demonstrate how psychosocial structure improves explanatory power.
+* Differences between models are more informative than individual R² magnitudes; emphasis should be placed on the pattern of improvement when mechanisms and personality variables are introduced.
+
+Recommended framing:
+
+* Stage A: establishes baseline explanatory capacity.
+* Stage B: evaluates contribution of contextual pathways.
+* Stage C: assesses whether distal traits provide structural gains beyond mechanisms.
+
+Avoid presenting R² as proof of causality or theoretical validity.
+
+---
+
+### 3. Relevance of 2D vs 3D Conceptual Models
+
+The dimensional representations serve different purposes:
+
+* **2D models** emphasize interpretability and publication clarity. They highlight directional relationships and hierarchical structure without overloading the reader with spatial metaphors.
+* **3D conceptual representations** are exploratory tools used during model development to visualize interactions among distal traits, context, and mechanisms. Their role is heuristic rather than strictly statistical.
+
+Suggested positioning:
+
+* The manuscript should prioritize 2D diagrams for communication.
+* 3D interpretations may be referenced as conceptual aids illustrating the layered psychosocial space but should not be presented as empirical dimensionality.
+
+---
+
+### 4. Methodological Positioning
+
+Several intentional modelling decisions should be acknowledged:
+
+* Pairwise geometry was reduced to maintain conceptual clarity and avoid overfitting the narrative.
+* Feature importance metrics were not emphasized to prevent misinterpretation of correlational predictors as causal drivers.
+* The modelling pipeline focuses on predictive structure aligned with psychosocial theory rather than purely algorithmic optimization.
+
+---
+
+### 5. Conceptual Clarifications Requiring Author Confirmation
+
+1. Should **emotional state** be explicitly framed as a mediator between environment/personality and ITQ, or as a proximal outcome variable?
+2. Is Stage D intended to function as a theoretical synthesis diagram or as a summary of empirical modelling results?
+3. Confirm preferred terminology regarding mechanisms (e.g., “psychosocial mechanisms” vs. “intermediate outcomes”).
+
+---
+
+### 6. Suggested Narrative Emphasis for the Discussion Section
+
+* Proximal work mechanisms appear to explain more variance than distal personality traits alone.
+* Contextual factors primarily operate through psychosocial pathways rather than directly predicting ITQ.
+* Layered modelling clarifies the distinction between distal structure (personality), environment (context/support), and proximal experience (stress/emotional state).
+
+---
+
+### 7. Reporting Guidance
+
+* Use consistent terminology across diagrams and text to maintain alignment between visual and analytical sections.
+* Emphasize interpretability over technical complexity.
+* Avoid causal phrasing unless explicitly supported by study design.
+
+---
+
+These notes are intended as a pre-final alignment step before drafting the conclusions section, ensuring that conceptual framing, statistical interpretation, and visual communication remain coherent across the manuscript.

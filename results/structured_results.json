@@ -1,0 +1,404 @@
+{
+  "GLOBAL": {
+    "M1": {
+      "coefficients": {
+        "perform_effectively": 0.01020216769155694,
+        "succeed": 0.04266391680989234,
+        "obtain_outcomes": -0.048309176631811494,
+        "achieve_goals": 0.0392506712193921,
+        "assess_team_productivity": -0.12842776001998965,
+        "satisfied_with_colleagues": -0.05445623740311655,
+        "nervous/stressed": 0.28443850981570495,
+        "upset_about_something": 0.5405148787301893
+      },
+      "r2": 0.37453961823484616,
+      "rmse": 1.028632010508967,
+      "mae": 0.8082345809582523
+    },
+    "M2": {
+      "coefficients": {
+        "perform_effectively": 0.014863222222295034,
+        "succeed": 0.05956147780062361,
+        "obtain_outcomes": -0.02116703802846605,
+        "achieve_goals": 0.053629124996186085,
+        "assess_team_productivity": -0.12466020182482873,
+        "satisfied_with_colleagues": -0.03965589261632176,
+        "nervous/stressed": 0.24691158869811822,
+        "upset_about_something": 0.47664527986178273,
+        "rely_on_supervisor_for_backup": 0.04976945989980294,
+        "organization_cares_about_me": -0.17624638341126886,
+        "help_available_from_organization": -0.11507788517715302,
+        "seek_family_support": 0.18764711094509437,
+        "hybrid_experience": 0.020728549246663917,
+        "current_in_person": 0.005237579943665384
+      },
+      "r2": 0.4324248120390821,
+      "rmse": 0.9798776077474002,
+      "mae": 0.7722535996302637
+    },
+    "M3": {
+      "coefficients": {
+        "perform_effectively": 0.050952418492859745,
+        "succeed": 0.03866871392013071,
+        "obtain_outcomes": 0.021544438631765233,
+        "achieve_goals": -0.010822507653602344,
+        "assess_team_productivity": -0.12518453509787647,
+        "satisfied_with_colleagues": -0.042744053016138144,
+        "nervous/stressed": 0.20488536006572053,
+        "upset_about_something": 0.40489737355219985,
+        "rely_on_supervisor_for_backup": 0.05082333291430602,
+        "organization_cares_about_me": -0.19672227490932223,
+        "help_available_from_organization": -0.11113614622742181,
+        "seek_family_support": 0.15847873997075076,
+        "hybrid_experience": 0.016564527315087237,
+        "current_in_person": 0.004195739629687972,
+        "like_order": -0.03361377400513648,
+        "sympathize": -0.044123866547524135,
+        "imagination": 0.024477441540592566,
+        "relaxed": 0.06722401440716674,
+        "easily_upset": 0.1506664001847237,
+        "networking": 0.08985175513087115,
+        "communication": -0.20045436947397458,
+        "get_people_to_like_me": 0.11953089004449498,
+        "understand_hidden_agendas": 0.10470233774523983
+      },
+      "r2": 0.46774125169332326,
+      "rmse": 0.9489023814502956,
+      "mae": 0.7381334239884179
+    },
+    "MECHANISMS": {
+      "perform_effectively": {
+        "coefficients": {
+          "rely_on_supervisor_for_backup": 0.04787584882361726,
+          "organization_cares_about_me": 0.05242092867088414,
+          "help_available_from_organization": 0.029353903338803684,
+          "seek_family_support": -0.0916690220564875,
+          "hybrid_experience": 0.013069356098048043,
+          "current_in_person": 0.0005786804486830434,
+          "like_order": 0.04424716046013639,
+          "sympathize": 0.09350588564663588,
+          "imagination": -0.018305134489681508,
+          "relaxed": 0.0825478643883978,
+          "easily_upset": -0.04881892966658453,
+          "networking": 0.019576660881867654,
+          "communication": 0.21213305587119455,
+          "get_people_to_like_me": 0.12943027853962236,
+          "understand_hidden_agendas": -0.009905556785806657
+        },
+        "r2": 0.27146535875495514,
+        "rmse": 0.7595647451040124,
+        "mae": 0.5590472340508063
+      },
+      "succeed": {
+        "coefficients": {
+          "rely_on_supervisor_for_backup": 0.03735096765364762,
+          "organization_cares_about_me": 0.10260613784866414,
+          "help_available_from_organization": 0.027841691569566108,
+          "seek_family_support": -0.049047743513001715,
+          "hybrid_experience": 0.014888684332460605,
+          "current_in_person": -0.0017548904223287753,
+          "like_order": 0.01941843404372958,
+          "sympathize": 0.0672024115848396,
+          "imagination": 0.09304521134282268,
+          "relaxed": 0.0283704795581418,
+          "easily_upset": -0.02831854910781426,
+          "networking": 0.06648579276847533,
+          "communication": 0.1838773414662265,
+          "get_people_to_like_me": 0.07500121671849865,
+          "understand_hidden_agendas": 0.07185581566672239
+        },
+        "r2": 0.25301916483590614,
+        "rmse": 0.8157157937090269,
+        "mae": 0.596151448374846
+      },
+      "obtain_outcomes": {
+        "coefficients": {
+          "rely_on_supervisor_for_backup": 0.024445819869998706,
+          "organization_cares_about_me": 0.15591233635480675,
+          "help_available_from_organization": -0.009719221576380629,
+          "seek_family_support": -0.063779042040184,
+          "hybrid_experience": 0.009703371095050201,
+          "current_in_person": -0.00043668040710063033,
+          "like_order": -0.0037822610015106465,
+          "sympathize": 0.12218396685869318,
+          "imagination": 0.0049087260322567315,
+          "relaxed": -0.031165212894026472,
+          "easily_upset": -0.031127596566249506,
+          "networking": 0.005824908792093312,
+          "communication": 0.22389262348190728,
+          "get_people_to_like_me": 0.03452580378727537,
+          "understand_hidden_agendas": 0.08905213449715041
+        },
+        "r2": 0.23899589382932307,
+        "rmse": 0.7904140408292196,
+        "mae": 0.5776551791871556
+      },
+      "achieve_goals": {
+        "coefficients": {
+          "rely_on_supervisor_for_backup": 0.06057901014301545,
+          "organization_cares_about_me": 0.08260794275432216,
+          "help_available_from_organization": 0.08695714323543875,
+          "seek_family_support": -0.14446714272816086,
+          "hybrid_experience": 0.025377162451386926,
+          "current_in_person": 0.0005261009505977016,
+          "like_order": 0.003118895602872724,
+          "sympathize": 0.06808236805209798,
+          "imagination": -0.008650191386390362,
+          "relaxed": 0.062249089082823415,
+          "easily_upset": 0.028305580076002854,
+          "networking": 0.16657991187260437,
+          "communication": 0.04232075411937166,
+          "get_people_to_like_me": 0.11070409379389497,
+          "understand_hidden_agendas": 0.07379645813104975
+        },
+        "r2": 0.2531440474585587,
+        "rmse": 0.8337308566287506,
+        "mae": 0.5874014451732787
+      },
+      "assess_team_productivity": {
+        "coefficients": {
+          "rely_on_supervisor_for_backup": 0.3837780706663189,
+          "organization_cares_about_me": 0.22512433390661438,
+          "help_available_from_organization": 0.1163332767796817,
+          "seek_family_support": 0.08464903261531045,
+          "hybrid_experience": 0.037298291861446634,
+          "current_in_person": 0.0013164248896810568,
+          "like_order": -0.0015838071449797147,
+          "sympathize": 0.04514647708431472,
+          "imagination": 0.02983861001925547,
+          "relaxed": 0.08942882997931875,
+          "easily_upset": -0.26047275371791656,
+          "networking": 0.0007746708827793575,
+          "communication": 0.07497453842741109,
+          "get_people_to_like_me": 0.26936464342204824,
+          "understand_hidden_agendas": 0.07024951477079894
+        },
+        "r2": 0.36058995222381784,
+        "rmse": 1.2504462332106376,
+        "mae": 0.9412912653092756
+      },
+      "satisfied_with_colleagues": {
+        "coefficients": {
+          "rely_on_supervisor_for_backup": 0.2227372179696296,
+          "organization_cares_about_me": 0.06631833273064587,
+          "help_available_from_organization": 0.07503617777526528,
+          "seek_family_support": -0.011862723573385405,
+          "hybrid_experience": 0.0013488482816089232,
+          "current_in_person": 0.0003871818534373868,
+          "like_order": 0.022179953200462857,
+          "sympathize": 0.11370567362342414,
+          "imagination": 0.004134189649001029,
+          "relaxed": 0.04128597624933974,
+          "easily_upset": -0.028617922190587494,
+          "networking": 0.02763291142892027,
+          "communication": 0.059837133547639,
+          "get_people_to_like_me": 0.10181672110683922,
+          "understand_hidden_agendas": -0.016472055918559547
+        },
+        "r2": 0.3211626071283795,
+        "rmse": 0.6643388672707232,
+        "mae": 0.5183958106784474
+      },
+      "nervous/stressed": {
+        "coefficients": {
+          "rely_on_supervisor_for_backup": -0.015368982411562676,
+          "organization_cares_about_me": -0.04224412463084367,
+          "help_available_from_organization": -0.0893643579865393,
+          "seek_family_support": 0.18465461372868447,
+          "hybrid_experience": -0.029016855379282752,
+          "current_in_person": 0.0029238441999986098,
+          "like_order": -0.045045108817415164,
+          "sympathize": -0.003360197622954129,
+          "imagination": 0.1238435589727003,
+          "relaxed": -0.15927319872077422,
+          "easily_upset": 0.4870272933423877,
+          "networking": 0.10478427054583847,
+          "communication": -0.09733078467792197,
+          "get_people_to_like_me": -0.1290088387999789,
+          "understand_hidden_agendas": 0.12268327777367675
+        },
+        "r2": 0.33682582975286524,
+        "rmse": 0.975945058701497,
+        "mae": 0.7866750365414358
+      },
+      "upset_about_something": {
+        "coefficients": {
+          "rely_on_supervisor_for_backup": -0.05058136042026046,
+          "organization_cares_about_me": -0.03965658581149808,
+          "help_available_from_organization": 0.027221704229506597,
+          "seek_family_support": 0.21963651610906032,
+          "hybrid_experience": -0.0008625414712064523,
+          "current_in_person": 0.003081790532055069,
+          "like_order": 0.012363390955270896,
+          "sympathize": -0.1041733221701971,
+          "imagination": -0.007544329752771917,
+          "relaxed": 0.030276426338972325,
+          "easily_upset": 0.550801435553327,
+          "networking": 0.18816765243623734,
+          "communication": -0.027675965628463046,
+          "get_people_to_like_me": -0.09156103703029253,
+          "understand_hidden_agendas": 0.028734818536107962
+        },
+        "r2": 0.36940901265066306,
+        "rmse": 0.9449998314152558,
+        "mae": 0.7490057845099455
+      }
+    },
+    "PERSONALITY_EFFECTS": {
+      "TASK_EFFECTIVENESS": {
+        "coefficients": {
+          "rely_on_supervisor_for_backup": 0.04256291162256976,
+          "organization_cares_about_me": 0.09838683640716958,
+          "help_available_from_organization": 0.033608379141856784,
+          "seek_family_support": -0.08724073758445851,
+          "hybrid_experience": 0.015759643494236433,
+          "current_in_person": -0.0002716973575371653,
+          "like_order": 0.01575055727630701,
+          "sympathize": 0.08774365803556658,
+          "imagination": 0.01774965287475191,
+          "relaxed": 0.03550055503383419,
+          "easily_upset": -0.019989873816161404,
+          "networking": 0.06461681857876007,
+          "communication": 0.16555594373467472,
+          "get_people_to_like_me": 0.087415348209823,
+          "understand_hidden_agendas": 0.05619971287727919
+        },
+        "r2": 0.34479544454027355,
+        "rmse": 0.6213165994858696,
+        "mae": 0.4025578950362598
+      },
+      "TEAM_EFFECTIVENESS": {
+        "coefficients": {
+          "rely_on_supervisor_for_backup": 0.303257644317974,
+          "organization_cares_about_me": 0.1457213333186299,
+          "help_available_from_organization": 0.0956847272774738,
+          "seek_family_support": 0.036393154520962624,
+          "hybrid_experience": 0.01932357007152773,
+          "current_in_person": 0.000851803371559227,
+          "like_order": 0.010298073027741607,
+          "sympathize": 0.07942607535386932,
+          "imagination": 0.0169863998341282,
+          "relaxed": 0.06535740311432914,
+          "easily_upset": -0.14454533795425192,
+          "networking": 0.014203791155849304,
+          "communication": 0.06740583598752498,
+          "get_people_to_like_me": 0.18559068226444433,
+          "understand_hidden_agendas": 0.026888729426119716
+        },
+        "r2": 0.4301992583728145,
+        "rmse": 0.7928392662530732,
+        "mae": 0.600839523907461
+      },
+      "JOB_STRESS": {
+        "coefficients": {
+          "rely_on_supervisor_for_backup": -0.032975171415911546,
+          "organization_cares_about_me": -0.04095035522117084,
+          "help_available_from_organization": -0.03107132687851643,
+          "seek_family_support": 0.20214556491887242,
+          "hybrid_experience": -0.014939698425244612,
+          "current_in_person": 0.00300281736602684,
+          "like_order": -0.016340858931072098,
+          "sympathize": -0.05376675989657573,
+          "imagination": 0.05814961460996429,
+          "relaxed": -0.06449838619090094,
+          "easily_upset": 0.518914364447857,
+          "networking": 0.146475961491038,
+          "communication": -0.06250337515319257,
+          "get_people_to_like_me": -0.11028493791513574,
+          "understand_hidden_agendas": 0.07570904815489232
+        },
+        "r2": 0.4003603354448003,
+        "rmse": 0.8439182896864054,
+        "mae": 0.6778319253216127
+      },
+      "ITQ": {
+        "coefficients": {
+          "rely_on_supervisor_for_backup": -0.007370882783041593,
+          "organization_cares_about_me": -0.22898875899484836,
+          "help_available_from_organization": -0.12882784452125734,
+          "seek_family_support": 0.25147549331208097,
+          "hybrid_experience": 0.009557299714924373,
+          "current_in_person": 0.005563198530159254,
+          "like_order": -0.03495312865465134,
+          "sympathize": -0.07953549745793102,
+          "imagination": 0.043453079185952086,
+          "relaxed": 0.045397428662542684,
+          "easily_upset": 0.438690414949897,
+          "networking": 0.17237608432683013,
+          "communication": -0.21115611813438623,
+          "get_people_to_like_me": 0.04942431816117852,
+          "understand_hidden_agendas": 0.13436928661072894
+        },
+        "r2": 0.34210204743540606,
+        "rmse": 1.0549682752736427,
+        "mae": 0.8585105334800854
+      }
+    },
+    "MECH_INDEPENDENT": {
+      "perform_effectively": {
+        "coefficients": {
+          "perform_effectively": -0.08135413588555362
+        },
+        "r2": 0.00392804259392876,
+        "rmse": 1.2980920470934851,
+        "mae": 1.1226028144964018
+      },
+      "succeed": {
+        "coefficients": {
+          "succeed": -0.055953710931783286
+        },
+        "r2": 0.0018581240526398535,
+        "rmse": 1.2994401175329215,
+        "mae": 1.1257932895426035
+      },
+      "obtain_outcomes": {
+        "coefficients": {
+          "obtain_outcomes": -0.10952200948033455
+        },
+        "r2": 0.007119011957975707,
+        "rmse": 1.2960111257983442,
+        "mae": 1.1195561260748053
+      },
+      "achieve_goals": {
+        "coefficients": {
+          "achieve_goals": -0.01870785284900795
+        },
+        "r2": 0.0002077135392640761,
+        "rmse": 1.300513974815373,
+        "mae": 1.1294309880397606
+      },
+      "assess_team_productivity": {
+        "coefficients": {
+          "assess_team_productivity": -0.23578363486689788
+        },
+        "r2": 0.03299470368784685,
+        "rmse": 1.2790118222226168,
+        "mae": 1.0910359759125445
+      },
+      "satisfied_with_colleagues": {
+        "coefficients": {
+          "satisfied_with_colleagues": -0.15632538513547511
+        },
+        "r2": 0.014503603885299698,
+        "rmse": 1.2911825636811067,
+        "mae": 1.1153348378351757
+      },
+      "nervous/stressed": {
+        "coefficients": {
+          "nervous/stressed": 0.6689263088191874
+        },
+        "r2": 0.26556660983783165,
+        "rmse": 1.1146444016182153,
+        "mae": 0.8943422718804828
+      },
+      "upset_about_something": {
+        "coefficients": {
+          "upset_about_something": 0.7421413406731698
+        },
+        "r2": 0.32688136611243346,
+        "rmse": 1.0671020127215134,
+        "mae": 0.8401546801507724
+      }
+    }
+  }
+}
